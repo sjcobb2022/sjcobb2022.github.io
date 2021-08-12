@@ -1,10 +1,11 @@
 # Product in the marketing mix
-<br><br>
+<br>
 
 
 ### BCG
+<br>
 
-![BCG Matrix](4.5.3.1-The-Boston-consulting-group-(BCG)-matrix.cf0712024fc14d01a403.png)
+![BCG Matrix](../images/4.5.3.1-The-Boston-consulting-group-(BCG)-matrix.cf0712024fc14d01a403.png)
 
 <br>
 Boston Consulting Group BCG matrix
@@ -52,7 +53,7 @@ higher market share have higher chance of having better ecenomics of scale and w
 This can be related to product life cycle. Products in maturity and decline have low market growth while growing products have higher market growth
 
 ## Product Classifications
-<br><br>
+
 ### Cash Cows (high market share, low market growth)
 
 Cash cows are successful products in mature markets. They enjoy high sales revenue from an established customer base. Customer loyalty is likely high. Therefore less money is need for marketing. Promotion is likely to focus on replacement products and maintaining loyalty. Cash cows produce significant positive cash flow
@@ -61,19 +62,18 @@ Cash cows are successful products in mature markets. They enjoy high sales reven
 ### Dogs (low market share, low growth)
 
 Dogs have little market share in low growth markets. These products may be at the end of their life cycle, or perhaps they are niche products competing in mature markets. Apple's Macbooks are an example of a dog product. Depending upon the year, about 7% of all laptops sold will be made by Apple. Dogs have a small **positive cash flow.**
-
 <br>
+
 ### Stars (high market share, high market growth)
 
 Stars have a significant proportion of fast-growing markets. Revenue will be equally fast growing. Netflix is example. Requires significant investment for sustainable growth. Marketing attracts new customers and establishing brand image. profitability will be affected by the rate of reinvestment. High growth firms spend heavily to keep expanding operation and sales possible for stars to have negative cash flow
-
 <br>
 
 ### **Problem child (low market share, high market growth)**
 
 Problem children also known as question marks have smallest market share in high growth markets. These products are often recent launches in response to rapidly growing revenues of competitors. Prime and Hulu are examples of this.
 
-<br><br><br>
+<br><br>
 	
 ## Product Strategies
 
@@ -95,6 +95,7 @@ Problem children also known as question marks have smallest market share in high
 2.  Whatsapp is a free-to-use service that does not contain any advertisements. Using the ideas discussed on this page, suggest how Facebook pays for the running cost of Whatsapp.
 	- Facebook may be using profit from another "dog" product's profit. 
 	- They could also be using a cash cow to fund the operation
+<br>
 
 ## Examples of product Portfolios
 
@@ -103,16 +104,16 @@ Ideally companies will seek to have a balanced portfolio. Profits from cash cows
 <br>
 <br>
 
-![Googles Product portfolio](4.5.3.3-Google's-product-portfolio.cc3ff7c26d92163a2d43.png)
+![Googles Product portfolio](../images/Business-12-8-2021/4.5.3.3-Google's-product-portfolio.cc3ff7c26d92163a2d43.png)
 
 <br>
 
 
-![Apples Product portfolio](4.5.3.4-Apple's-product-portfolio.9b3ab19e187253668a60.png)
+![Apples Product portfolio](../images/Business-12-8-2021/4.5.3.4-Apple's-product-portfolio.9b3ab19e187253668a60.png)
 
 <br>
 
-![Microsoft's Product portfolio](4.5.3.5-Microsoft's-product-portfolio.0cdf14971370e01aa9b5.png)
+![Microsoft's Product portfolio](../images/Business-12-8-2021/4.5.3.5-Microsoft's-product-portfolio.0cdf14971370e01aa9b5.png)
 
 <br>
 <br>
@@ -120,7 +121,8 @@ Ideally companies will seek to have a balanced portfolio. Profits from cash cows
 
 ## Evaluation of the BCG matrix
 
-The matrix does have strings. It provides guidelines for management concerning investment and strategy. However the wider business context should also be considered. For example, a firm hoping to maximise hsort-term profits mat increase payments to dividends, rather than investing in stars and problem child products. 
+The matrix does have strings. It provides guidelines for management concerning investment and strategy. However the wider business context should also be considered. For example, a firm hoping to maximise hsort-term profits mat increase payments to dividends, rather than investing in stars and problem child products.
+<br>
 
 ### Benefits
 
