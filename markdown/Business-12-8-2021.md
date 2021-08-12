@@ -134,3 +134,5 @@ The matrix does have strings. It provides guidelines for management concerning i
 | It provides advice as to which products deserve financial support.                    | It cannot be used as a forecasting tool.                                                                                                      |
 |                                                                                       | Profitability and pricing strategies are not considered. Cash cows could have very low profit margins and, as a result, generate few profits. |
 
+
+> hello there
