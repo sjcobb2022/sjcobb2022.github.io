@@ -21,7 +21,7 @@ jobs:
           done
         env:
           FILE_CONT: ${{toJSON(steps.changed-files.outputs.all_modified_files)}}
-          run: echo "$FILE_CONT"
+        run: echo "$FILE_CONT"
       - name: List files in the repository
         run: |
             python ./.github/workflows/build.py
