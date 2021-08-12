@@ -10,12 +10,14 @@ def main(file, directory):
         f = open(directory + "/index.md", 'a')
         f.write(f"<br>"
                 f"\n"
+                f"\n"
+                f"\n"
                 f">[{ntpath.basename(file)}]({'/markdown/' + os.path.splitext(ntpath.basename(file))[0]})"
                 f"\n"
                 f"\n"
                 f"<br>"
                 f"\n"
-                f"<tab>")
+                f"")
 
 
 if __name__ == "__main__":
