@@ -21,4 +21,4 @@ jobs:
           done
       - name: List files in the repository
         run: |
-            ls ./.github
+            python ./.github/workflows/build.py
