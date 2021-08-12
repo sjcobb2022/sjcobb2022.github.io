@@ -11,7 +11,7 @@ def main(file, directory):
         print(directory+"/markdown/"+ntpath.basename(file))
 #         print(os.path.dirname(os.path.realpath(file)))
         os.rename(directory+"/"+file, directory+"/markdown/"+ntpath.basename(file))
-        os.listdir(directory+"/markdown/")
+        print(os.listdir(directory+"/markdown/"))
 
 
 if __name__ == "__main__":
