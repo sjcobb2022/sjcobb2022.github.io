@@ -2,8 +2,6 @@ name: Actions Test
 on: [push]
 
 jobs:
-  strategy:
-    matrix:
   build:
     runs-on: ubuntu-latest  # windows-latest | macos-latest
     name: Test changed-files
