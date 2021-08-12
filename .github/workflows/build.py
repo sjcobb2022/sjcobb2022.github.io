@@ -10,7 +10,7 @@ def main(file, directory):
         f = open(directory + "/index.md", 'a')
         f.write(f"<br>"
                 f"\n"
-                f">[{ntpath.basename(file)}]({directory + '/markdown/' + ntpath.basename(file)})")
+                f">[{ntpath.basename(file)}]({'/markdown/' + os.path.splitext(ntpath.basename(file))[0]})")
 
 
 if __name__ == "__main__":
