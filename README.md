@@ -77,10 +77,10 @@ Problem children also known as question marks have smallest market share in high
 	
 ## Product Strategies
 
- - **Milk Your Cows (i.e. milking)\:** reinvest surplus form cash cows into other products
- - **Help your stars shine\: ** stars offer the best chance of future profitability. Therefore they should be the primary recipients of investment
- - **Support your problem child\: ** if problem child products are to have any chance of success, they will require considerable investment. However this should not come at the expense of starts. Therefore cash-strapped firms may decide to cut their losses and let the products fail
- - **Keep your dog as a pet\: ** as long as they remain profitable, dogs should be maintained in the product portfolio, as the surplusses can be invested in the companies starts or problem children.  If there is negative cash flow, they should be allowed to die
+ - **Milk Your Cows (i.e. milking):** reinvest surplus form cash cows into other products
+ - **Help your stars shine stars:** offer the best chance of future profitability. Therefore they should be the primary recipients of investment
+ - **Support your problem child:** if problem child products are to have any chance of success, they will require considerable investment. However this should not come at the expense of starts. Therefore cash-strapped firms may decide to cut their losses and let the products fail
+ - **Keep your dog as a pet:** as long as they remain profitable, dogs should be maintained in the product portfolio, as the surplusses can be invested in the companies starts or problem children.  If there is negative cash flow, they should be allowed to die
 
 <br><br>
 
