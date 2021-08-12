@@ -2,6 +2,8 @@ name: Actions Test
 on: [push]
 
 jobs:
+  strategy:
+    matrix:
   build:
     runs-on: ubuntu-latest  # windows-latest | macos-latest
     name: Test changed-files
@@ -18,6 +20,7 @@ jobs:
         run: |
           for file in "${{ steps.changed-files.outputs.all_modified_files }}"; do
             echo "$file was modified"
+            echo github.workspace
           done
       - name: python_test
         run: |
