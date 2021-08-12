@@ -18,10 +18,10 @@ jobs:
         run: |
           for file in "${{ steps.changed-files.outputs.all_modified_files }}"; do
             echo "$file was modified"
-                if(${{endsWith(file, ".yml")}})
-                then
-                  echo  "aaaaaaaaaa"
           done
+        env:
+          FILE_CONT: ${{toJSON(steps.changed-files.outputs.all_modified_files)}}
+          run: echo "$FILE_CONT"
       - name: List files in the repository
         run: |
             python ./.github/workflows/build.py
