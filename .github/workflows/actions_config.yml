@@ -22,7 +22,11 @@ jobs:
       - name: toJsonTEST
         env:
           FILE_CONT: ${{steps.changed-files.outputs.all_modified_files}}
-        run: echo "$FILE_CONT"
+        run:
+          for f in $FILE_CONT;
+            do echo "$f"
+            echo endsWith($f, ".yml");
+          done
       - name: List files in the repository
         run: |
             python ./.github/workflows/build.py
