@@ -8,7 +8,7 @@ def main(file, directory):
     print('the directory is ', directory)
     if(file.endswith(".md") and not file.startswith('.github')):
         x = re.search("(\/(?!.*\/)).*$", file)
-#         print(x.string)
+        print(x.string)
         print("SUCCESS!!!!")
 
 
