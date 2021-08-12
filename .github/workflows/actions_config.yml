@@ -18,7 +18,7 @@ jobs:
         run: |
           for file in "${{ steps.changed-files.outputs.all_modified_files }}"; do
             echo "$file was modified"
-            echo ${{github.workspace}}
+            ls ${{github.workspace}}
           done
       - name: python_test
         run: |
