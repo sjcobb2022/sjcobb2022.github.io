@@ -25,6 +25,9 @@ jobs:
           for file in "${{ steps.changed-files.outputs.all_modified_files }}"; do
             python ./.github/workflows/build.py $file ${{github.workspace}}
           done
+      - name: add files
+        run: |
+          git add --all
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
