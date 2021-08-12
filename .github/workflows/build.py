@@ -9,6 +9,7 @@ def main(file, directory):
 #         print("SUCCESS!!")
         print(directory+"/"+file)
         print(directory+"/markdown/"+ntpath.basename(file))
+        print(os.path.dirname(os.path.realpath(file)))
         os.rename(directory+"/"+file, directory+"/markdown/"+ntpath.basename(file))
 
 
