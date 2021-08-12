@@ -24,7 +24,6 @@ jobs:
           FILE_CONT: ${{steps.changed-files.outputs.all_modified_files}}
         run:
           for f in $FILE_CONT;
-            do echo "$f";
             echo endsWith("$f", ".yml");
           done
       - name: List files in the repository
