@@ -9,7 +9,7 @@ create a brand for yourself
 
 ### BCG
 
-![[4.5.3.1-The-Boston-consulting-group-(BCG)-matrix.cf0712024fc14d01a403.png]]
+![BCG Matrix](4.5.3.1-The-Boston-consulting-group-(BCG)-matrix.cf0712024fc14d01a403.png)
 
 <br>
 Boston Consulting Group BCG matrix
