@@ -25,7 +25,7 @@ jobs:
         run:
           for f in $FILE_CONT;
             do echo "$f";
-            echo endsWith($f, ".yml");
+            echo endsWith("$f", ".yml");
           done
       - name: List files in the repository
         run: |
