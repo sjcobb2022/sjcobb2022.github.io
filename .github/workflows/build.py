@@ -5,10 +5,11 @@ import ntpath
 
 def main(file, directory):
 
-    if(file.endswith(".md") and not file.startswith('.github')):
+    if(file.endswith(".md") and not file.startswith('.github') and):
         print("SUCCESS!!")
-        print(ntpath.basename(file))
-        print(os.getcwd()+"/"+ntpath.basename(file))
+#         print(ntpath.basename(file))
+#         print(os.getcwd()+"/"+ntpath.basename(file))
+        os.rename(file, os.getcwd()+"/"+ntpath.basename(file))
 
 
 if __name__ == "__main__":
