@@ -5,9 +5,8 @@ import re
 
 def main(file, directory):
     print("the file is", file)
-    print(os.getcwd())
-#     os.rename(file, files+1)
     if(file.endswith(".md") and not file.startswith('.github')):
+        print("SUCCESS!!!!")
         x = re.search("(\/(?!.*\/)).*$", file)
         os.rename(file, directory+x.string)
 
