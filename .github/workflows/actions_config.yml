@@ -18,7 +18,7 @@ jobs:
         run: |
           for file in "${{ steps.changed-files.outputs.all_modified_files }}"; do
             echo "$file was modified"
-                if(${{endsWith($file, ".yml")}})
+                if(${{endsWith(file, ".yml")}})
                 then
                   echo  "aaaaaaaaaa"
           done
