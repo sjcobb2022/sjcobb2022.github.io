@@ -1,9 +1,4 @@
 # Product in the marketing mix
-
-
-create a brand for yourself
- - blah blah blah
-
 <br><br>
 
 
@@ -52,7 +47,7 @@ higher market share have higher chance of having better ecenomics of scale and w
 >e.x. clothing brand sold 950 mill worth of clothing and 1000Mill the next year
 > 
 > Market Growth = (1000 - 950) / 950
-> **Market Growth = 5.26%
+> **Market Growth = 5.26%**
 
 This can be related to product life cycle. Products in maturity and decline have low market growth while growing products have higher market growth
 
@@ -74,7 +69,7 @@ Stars have a significant proportion of fast-growing markets. Revenue will be equ
 
 <br>
 
-### **Problem child (low** market share**, high market growth)**
+### **Problem child (low market share, high market growth)**
 
 Problem children also known as question marks have smallest market share in high growth markets. These products are often recent launches in response to rapidly growing revenues of competitors. Prime and Hulu are examples of this.
 
@@ -82,10 +77,10 @@ Problem children also known as question marks have smallest market share in high
 	
 ## Product Strategies
 
- - **Milk Your Cows (i.e. milking)** reinvest surplus form cash cows into other products
- - **Help your stars shine: ** stars offer the best chance of future profitability. Therefore they should be the primary recipients of investment
- - **Support your problem child: ** if problem child products are to have any chance of success, they will require considerable investment. However this should not come at the expense of starts. Therefore cash-strapped firms may decide to cut their losses and let the products fail
- - **Keep your dog as a pet: ** as long as they remain profitable, dogs should be maintained in the product portfolio, as the surplusses can be invested in the companies starts or problem children.  If there is negative cash flow, they should be allowed to die
+ - **Milk Your Cows (i.e. milking)\:** reinvest surplus form cash cows into other products
+ - **Help your stars shine\: ** stars offer the best chance of future profitability. Therefore they should be the primary recipients of investment
+ - **Support your problem child\: ** if problem child products are to have any chance of success, they will require considerable investment. However this should not come at the expense of starts. Therefore cash-strapped firms may decide to cut their losses and let the products fail
+ - **Keep your dog as a pet\: ** as long as they remain profitable, dogs should be maintained in the product portfolio, as the surplusses can be invested in the companies starts or problem children.  If there is negative cash flow, they should be allowed to die
 
 <br><br>
 
