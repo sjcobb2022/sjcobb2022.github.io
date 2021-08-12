@@ -20,11 +20,9 @@ jobs:
             echo "$file was modified"
           done
       - name: toJsonTEST
-        env:
-          FILE_CONT: ${{steps.changed-files.outputs.all_modified_files}}
-        run:
+        run: |
           for file in "${{ steps.changed-files.outputs.all_modified_files }}"; do
-            python ./.github/workflows/build.py -i "$file"
+            python ./.github/workflows/build.py -i $file
           done
       - name: List files in the repository
         run: |
