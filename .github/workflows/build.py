@@ -1,17 +1,14 @@
 import os
 import sys
 import getopt
-import re
+import ntpath
 
 def main(file, directory):
-#     print("the file is", file)
-#     print('the directory is ', directory)
-    x = re.search("(\/(?!.*\/)).*$", file)
-    print(x)
+
     if(file.endswith(".md") and not file.startswith('.github')):
-#         print("STRING SEARCH THING", re.search("(\/(?!.*\/)).*$", file).string)
-#         print(x)
-        print("SUCCESS!!!!")
+        print("SUCCESS!!")
+        print(ntpath.basename(file))
+        print(os.getcwd()+"/"+ntpath.basename(file))
 
 
 if __name__ == "__main__":
