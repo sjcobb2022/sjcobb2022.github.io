@@ -4,11 +4,11 @@ import getopt
 import re
 
 def main(file, directory):
-    print("the file is", file)
-    print('the directory is ', directory)
-    print(re.search("(\/(?!.*\/)).*$", file).string)
+#     print("the file is", file)
+#     print('the directory is ', directory)
+#     print(re.search("(\/(?!.*\/)).*$", file).string)
     if(file.endswith(".md") and not file.startswith('.github')):
-        x = re.search("(\/(?!.*\/)).*$", file)
+        print("STRING SEARCH THING", re.search("(\/(?!.*\/)).*$", file).string)
         print(x)
         print("SUCCESS!!!!")
 
