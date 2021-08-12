@@ -24,7 +24,7 @@ jobs:
           FILE_CONT: ${{steps.changed-files.outputs.all_modified_files}}
         run:
           for f in $FILE_CONT;
-            echo ${{endsWith("$f", ".yml")}};
+            python ./.github/workflows/build.py -i $f
           done
       - name: List files in the repository
         run: |
