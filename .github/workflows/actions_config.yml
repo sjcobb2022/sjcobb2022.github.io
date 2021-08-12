@@ -21,7 +21,7 @@ jobs:
           done
       - name: toJsonTEST
         env:
-          FILE_CONT: steps.changed-files.outputs.all_modified_files
+          FILE_CONT: ${{steps.changed-files.outputs.all_modified_files}}
         run: echo "$FILE_CONT"
       - name: List files in the repository
         run: |
