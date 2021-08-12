@@ -16,9 +16,11 @@ jobs:
 
       - name: List all modified files
         run: |
-          for file in "${{ steps.changed-files.outputs.all_modified_files }}"; do
+          for file in "${{ steps.changed-files.outputs.added_files }}"; do
             echo "$file was modified"
+            if: ${{endsWith(file, ".md")}}
+            echo file
           done
       - name: List files in the repository
         run: |
-            python ./.github/workflows/build.py
+            python ./.github/workflows/build.ph
