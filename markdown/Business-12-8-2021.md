@@ -5,7 +5,7 @@
 ### BCG
 <br>
 
-![BCG Matrix](../images/4.5.3.1-The-Boston-consulting-group-(BCG)-matrix.cf0712024fc14d01a403.png)
+![BCG Matrix](../resources/4.5.3.1-The-Boston-consulting-group-(BCG)-matrix.cf0712024fc14d01a403.png)
 
 <br>
 Boston Consulting Group BCG matrix
@@ -104,16 +104,16 @@ Ideally companies will seek to have a balanced portfolio. Profits from cash cows
 <br>
 <br>
 
-![Googles Product portfolio](../images/Business-12-8-2021/4.5.3.3-Google's-product-portfolio.cc3ff7c26d92163a2d43.png)
+![Googles Product portfolio](../resources/Business-12-8-2021/4.5.3.3-Google's-product-portfolio.cc3ff7c26d92163a2d43.png)
 
 <br>
 
 
-![Apples Product portfolio](../images/Business-12-8-2021/4.5.3.4-Apple's-product-portfolio.9b3ab19e187253668a60.png)
+![Apples Product portfolio](../resources/Business-12-8-2021/4.5.3.4-Apple's-product-portfolio.9b3ab19e187253668a60.png)
 
 <br>
 
-![Microsoft's Product portfolio](../images/Business-12-8-2021/4.5.3.5-Microsoft's-product-portfolio.0cdf14971370e01aa9b5.png)
+![Microsoft's Product portfolio](../resources/Business-12-8-2021/4.5.3.5-Microsoft's-product-portfolio.0cdf14971370e01aa9b5.png)
 
 <br>
 <br>
