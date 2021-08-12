@@ -22,8 +22,5 @@ jobs:
       - name: toJsonTEST
         run: |
           for file in "${{ steps.changed-files.outputs.all_modified_files }}"; do
-            python ./.github/workflows/build.py -i $file
+            python ./.github/workflows/build.py $file
           done
-      - name: List files in the repository
-        run: |
-            python ./.github/workflows/build.py
