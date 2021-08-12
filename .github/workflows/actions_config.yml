@@ -19,6 +19,7 @@ jobs:
           for file in "${{ steps.changed-files.outputs.all_modified_files }}"; do
             echo "$file was modified"
           done
+      - name: toJsonTEST
         env:
           FILE_CONT: ${{toJSON(steps.changed-files.outputs.all_modified_files)}}
         run: echo "$FILE_CONT"
