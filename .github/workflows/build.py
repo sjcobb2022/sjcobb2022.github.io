@@ -9,11 +9,6 @@ def main(file, directory):
         os.rename(directory + "/" + file, directory + "/markdown/" + ntpath.basename(file))
         print(directory + "/" + file, directory + "/markdown/" + ntpath.basename(file))
 
-        dirs = os.listdir(os.cwd())
-
-        for file in dirs:
-           print(file)
-
         f = open(directory + "/index.md", 'a')
         f.write(f"<br>"
                 f"\n"
@@ -28,6 +23,4 @@ def main(file, directory):
 
 
 if __name__ == "__main__":
-    print(sys.argv[0])
-    print(sys.argv[2])
     main(sys.argv[1], sys.argv[2])
