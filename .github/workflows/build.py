@@ -6,7 +6,9 @@ import ntpath
 def main(file, directory):
     if (file.endswith(".md") and not file.startswith('.github') and ntpath.basename(file) != "index.md"):
         os.rename(directory + "/" + file, directory + "/markdown/" + ntpath.basename(file))
-        dirs = os.listdir(directory)
+        print(directory + "/" + file, directory + "/markdown/" + ntpath.basename(file))
+
+        dirs = os.listdir(os.cwd())
 
         for file in dirs:
            print(file)
