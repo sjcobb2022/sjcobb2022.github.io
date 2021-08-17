@@ -2,7 +2,6 @@ import os
 import sys
 import ntpath
 
-
 def main(file, directory):
     print(file, directory)
     if (file.endswith(".md") and not file.startswith('.github') and ntpath.basename(file) != "index.md"):
