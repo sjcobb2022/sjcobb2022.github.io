@@ -38,7 +38,7 @@ jobs:
           commit_message: Apply markdown
       - name: echo123
         run: |
-           echo $steps.auto-commit-action.outputs.changes_detected
+           echo ${{steps.auto-commit-action.outputs.changes_detected}}
       - name: add files
         run: |
           git add --all
