@@ -36,20 +36,3 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Apply markdown
-      - name: echo123
-        run: |
-           echo ${{steps.auto-commit-action.outputs.changes_detected}}
-      - name: add files
-        run: |
-          git add --all
-      - name: Commit files
-        if: steps.auto-commit-action.outputs.changes_detected == 'true'
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git commit -m "Add changes" -a
-      - name: Push changes
-        if: steps.auto-commit-action.outputs.changes_detected == 'true'
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
