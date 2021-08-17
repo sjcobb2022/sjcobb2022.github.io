@@ -24,6 +24,9 @@ jobs:
           for file in "${{ steps.changed-files.outputs.all_modified_files }}"; do
             python ./.github/workflows/build.py $file ${{github.workspace}}
           done
+      - name: sed_test
+        run: |
+          ls
       - name: add files
         run: |
           git add --all
