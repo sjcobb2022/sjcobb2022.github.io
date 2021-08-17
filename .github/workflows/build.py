@@ -30,7 +30,7 @@ def main(file, directory):
                f.write(f"## {path.split(os.sep)[-1]} \n")
 
             for j in range(len(subfiles)):
-                f.write(f">[{os.path.splitext(ntpath.basename(subfiles[j]))[0]}]({'/markdown/' + subdirs[i] + os.path.splitext(ntpath.basename(subfiles[j]))[0]})\n>\n")
+                f.write(f">[{os.path.splitext(ntpath.basename(subfiles[j]))[0]}]({subdirs[i] + os.path.splitext(ntpath.basename(subfiles[j]))[0]})\n>\n")
 
             f.write("\n")
 
