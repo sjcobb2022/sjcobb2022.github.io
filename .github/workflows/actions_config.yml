@@ -26,7 +26,7 @@ jobs:
           done
       - name: sed_test
         run: |
-          ls
+          sort -u index.md -o index.md && sed -i '' 'G' ./index.md
       - name: add files
         run: |
           git add --all
