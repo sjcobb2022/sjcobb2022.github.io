@@ -9,9 +9,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0  # OR "2" -> To retrieve the preceding commit.
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Apply markdown
+
 
       - name: Get changed files
         id: changed-files
@@ -33,6 +31,12 @@ jobs:
       - name: sed_test
         run: |
           sed -i 'G' index.md
+
+      - name: apply markdown
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Apply markdown
+
       - name: add files
         run: |
           git add --all
