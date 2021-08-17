@@ -118,9 +118,7 @@ Ideally companies will seek to have a balanced portfolio. Profits from cash cows
 <br>
 <br>
 
-
 ## Evaluation of the BCG matrix
-
 The matrix does have strings. It provides guidelines for management concerning investment and strategy. However the wider business context should also be considered. For example, a firm hoping to maximise hsort-term profits mat increase payments to dividends, rather than investing in stars and problem child products.
 <br>
 
