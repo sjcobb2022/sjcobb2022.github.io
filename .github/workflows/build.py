@@ -9,7 +9,7 @@ def main(file, directory):
         print(directory + "/" + file, directory + "/markdown/" + ntpath.basename(file))
 
 
-        print([x[0] for x in os.walk(directory+"/markdown")])
+        print([x[0] for x in os.walk(directory+"./markdown/")])
 
         f = open(directory + "/index.md", 'a')
         f.write(f">[{os.path.splitext(ntpath.basename(file))[0]}]({'/markdown/' + os.path.splitext(ntpath.basename(file))[0]})")
