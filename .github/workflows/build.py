@@ -27,7 +27,7 @@ def main(file, directory):
 
             if len(subfiles) > 0:
                path = os.path.normpath(subdirs[i])
-               f.write(f"##{path.split(os.sep)[-1]} \n")
+               f.write(f"## {path.split(os.sep)[-1]} \n")
 
             for j in range(len(subfiles)):
                 f.write(f">[{os.path.splitext(ntpath.basename(subfiles[j]))[0]}]({'/markdown/' + os.path.splitext(ntpath.basename(subfiles[j]))[0]})\n>\n")
