@@ -9,6 +9,9 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0  # OR "2" -> To retrieve the preceding commit.
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Apply markdown
 
       - name: Get changed files
         id: changed-files
@@ -34,11 +37,13 @@ jobs:
         run: |
           git add --all
       - name: Commit files
+        if: steps.auto-commit-action.outputs.changes_detected == 'true'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git commit -m "Add changes" -a
       - name: Push changes
+        if: steps.auto-commit-action.outputs.changes_detected == 'true'
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
