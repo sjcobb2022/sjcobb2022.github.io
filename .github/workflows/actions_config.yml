@@ -19,7 +19,7 @@ jobs:
           done
       - name: python_test
         run: |
-          for file in "${{ steps.changed-files.outputs.all_modified_files }}"; do
+          for file in ${{ steps.changed-files.outputs.all_modified_files }}; do
             python ./.github/workflows/build.py "$file" "${{github.workspace}}"
           done
 #      - name: sort index file
