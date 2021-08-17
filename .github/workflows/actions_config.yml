@@ -14,7 +14,7 @@ jobs:
         uses: tj-actions/changed-files@v9.3
       - name: List all modified files
         run: |
-          for file in "${{ steps.changed-files.outputs.all_modified_files }}"; do
+          for file in ${{ steps.changed-files.outputs.all_modified_files }}; do
             echo "$file was modified"
           done
       - name: python_test
