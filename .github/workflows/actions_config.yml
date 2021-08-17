@@ -20,14 +20,14 @@ jobs:
       - name: python_test
         run: |
           for file in "${{ steps.changed-files.outputs.all_modified_files }}"; do
-            python ./.github/workflows/build.py $file ${{github.workspace}}
+            python ./.github/workflows/build.py "$file" "${{github.workspace}}"
           done
-      - name: sort index file
-        run: |
-          sort -u index.md -o index.md
-      - name: sed_test
-        run: |
-          sed -i 'G' index.md
+#      - name: sort index file
+#        run: |
+#          sort -u index.md -o index.md
+#      - name: sed_test
+#        run: |
+#          sed -i 'G' index.md
       - name: apply markdown
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
