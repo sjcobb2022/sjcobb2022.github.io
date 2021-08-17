@@ -31,7 +31,6 @@ jobs:
       - name: sed_test
         run: |
           sed -i 'G' index.md
-
       - name: apply markdown
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
