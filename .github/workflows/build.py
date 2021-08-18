@@ -11,9 +11,9 @@ def main(file, directory):
         new_name = file.replace(" ", "-")
         folder = new_name.split("-")[0].capitalize()
 
-        os.makedirs(f"{directory}/markdown/{folder}", exist_ok=True)
+        os.makedirs(f"markdown/{folder}", exist_ok=True)
 
-        os.rename(directory + "/" + file, f"{directory}/markdown/{folder}/{new_name}")
+        os.rename(file, f"markdown/{folder}/{new_name}")
 
         subdirs = glob.glob("markdown/*/")
 
