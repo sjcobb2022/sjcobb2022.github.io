@@ -8,12 +8,14 @@ def main(file, directory):
 
     if (file.endswith(".md") and not file.startswith('.github') and ntpath.basename(file) != "index.md"):
 
-        new_name = file.replace(" ", "-")
+        new_name = os.path.split(file)[1].replace(" ", "-")
         folder = new_name.split("-")[0].capitalize()
 
         os.makedirs(f"markdown/{folder}", exist_ok=True)
 
-        os.rename(file, f"markdown/{folder}/{new_name}")
+        os.rename(directory + os.sep + file, f"markdown/{folder}/{new_name}")
+
+        file = os.path.split(file)
 
         subdirs = glob.glob("markdown/*/")
 
