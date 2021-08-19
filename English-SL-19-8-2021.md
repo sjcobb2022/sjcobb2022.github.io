@@ -5,7 +5,7 @@
 ## Getting Started
 
 
- #### Why is it important
+#### Why is it important
  - accurate portrayal of a story
  - accreditation
  - makes it easier for people to understand something
@@ -32,7 +32,7 @@
 
 
 
- #### What  forms can it take
+#### What  forms can it take
  - legal representation, representing a group, a spokesperson, media,
  - ACTIONS REFLECT/REPRESENT ONES INTENTIONS
  - media, art, movies, songs, pieces of literature, colours, physical objects like artifacts
