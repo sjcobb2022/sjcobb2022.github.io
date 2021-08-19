@@ -1,5 +1,8 @@
 name: Actions Test
-on: [push]
+on:
+  push:
+    paths:
+      - '**.md'
 
 jobs:
   build:
