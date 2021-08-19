@@ -39,7 +39,7 @@
  - TV shows, film, social media
  - Artworks, drawings, novels, posters, advertisements, speeches.
  - portrayal, literature, arts, speaking on behalf of someone or a group of people
- - Literary: Illustrative, Descriptive, Relational, Non-relational, Cultural | Self, Media, Art, Communities
+ - Literary: Illustrative, Descriptive, Relational, Non-relational, Cultural :: Self, Media, Art, Communities
  - legal representation, media, films, social media, marketing
 
 
