@@ -16,6 +16,8 @@
 >
 
 ## Math 
+>[Math-Kognity-Notes-19-8-2021](markdown/Math/Math-Kognity-Notes-19-8-2021)
+>
 >[Math-16-8-2021](markdown/Math/Math-16-8-2021)
 >
 
