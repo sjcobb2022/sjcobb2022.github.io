@@ -35,12 +35,15 @@ $$P(Z < \frac{x-μ}{σ})$$
 
 #### The value of the standard model variable z is how many standard deviations a value is from the mean.
 
-
+<br>
+<br>
 
 > #### Be aware
 >Make sure your answers make sense based on what you know about the normal distribution. Since half of the distribution is above z=0 and half is below z=0 , you can easily determine that in **Example 4** , part (b) must have a probability greater than 0.50.5 and part (c) must be less than 0.50.5 .
 
 
+<br>
+<br>
 
 
 #### Making connections
