@@ -4,7 +4,6 @@
 
 > **Essential idea:** Electric charges and masses each influence the space around them and that influence can be represented through the concept of fields.
 
-
 Forces generally fall into two categories: contact forces and non-contact forces. Contact forces are when two bodies need to physically interact and non-contact forces do not need physical contact. The interaction of non-contact forces is generally called "action at a distance".
 
 <br>
