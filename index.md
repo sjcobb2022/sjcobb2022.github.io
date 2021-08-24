@@ -6,9 +6,15 @@
 >
 >[Physics-HL-Kognity-23-8-2021](markdown/Physics/Physics-HL-Kognity-23-8-2021)
 >
+>[Physics-16-8-2021](markdown/Physics/Physics-16-8-2021)
+>
+>[Physics-23-8-2021](markdown/Physics/Physics-23-8-2021)
+>
 
 ## Business 
 >[Business-12-8-2021](markdown/Business/Business-12-8-2021)
+>
+>[Business-24-8-2021](markdown/Business/Business-24-8-2021)
 >
 >[Business-18-8-2021](markdown/Business/Business-18-8-2021)
 >
