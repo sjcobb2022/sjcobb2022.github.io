@@ -117,7 +117,6 @@ Better for larger companies to price lower??? (weed out the competitors)
 
  - Is there a lot of competition in the market?
 	 - can't price too far away from other brands
-	 - 
 
 <br>
 
