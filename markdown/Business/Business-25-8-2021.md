@@ -4,24 +4,21 @@
 
 If people don't know about your brand then they aren't going to buy it
 
-<br>
+---- 
 
 promotion is a marketing activity that influences your target audiences attitude (that they think, feel and believe) that will then persuade them to behave differently (usually to buy your product)
-
-<br>
-
-
+ 
+ ----
+ 
  At the end of the day its about urging people to buy your product.
  
-<br>
-<br>
-
  
  
  
-----
  
-### Objectives
+ ----
+ 
+ ### Objectives
  
  It is a shifty in Buying behavior 
  
@@ -34,7 +31,6 @@ promotion is a marketing activity that influences your target audiences attitude
   - e.g. discounts 
 
 
-<br>
 
 
 ### Case study
@@ -49,8 +45,6 @@ Launch of Coco Mama Fresh Gata
 	 - using Gata from scratch
  - **After**
 	 - Try using Coco Mama Fresh Gata
-
-<br>
 
 #### Promotion
 
@@ -75,8 +69,6 @@ Launch of Coco Mama Fresh Gata
  - Use variety of strategies 
 	 - Example above uses multiple methods is a good example of this
 
-<br>
-<br>
 
 ----
 
@@ -93,8 +85,6 @@ Launch of Coco Mama Fresh Gata
  - did the audience get the message?
 
 
-<br>
-<br>
 
 
 ----
@@ -104,7 +94,6 @@ Launch of Coco Mama Fresh Gata
  - Gift Cards
  - Apps
 
-<br>
 
 ## Summary
 1. ***Promotions are important!*** Its the key element of the marketing mix that drives purchases
@@ -115,12 +104,10 @@ Launch of Coco Mama Fresh Gata
 
 5. Crafting a powerful promotion starts with ***having clarity on who is your target audience*** and the ***change of behavior*** you want to happen (more usage or more users)
 
-<br>
-<br>
 
 ## Terms
 
-### Above the line
+ ### Above the line
  - Ads and posters
  - Any form of paid-for promotional method through independent  ***mass media sources*** to promote a business, its brands or its products
  - Methods
@@ -143,11 +130,12 @@ Launch of Coco Mama Fresh Gata
 | Success is relatively difficult to measure                      | Marketers can directly measure the response rates |
 | Methods use external agencies and hence incur professional fees | Markets have more control                         |
 
-<br>
 
 ### Promotional Mix
 
 > didn't discuss
+
+
 
 ---- 
 
