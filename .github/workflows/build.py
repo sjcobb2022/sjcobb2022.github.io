@@ -20,11 +20,11 @@ def main(file, directory):
 
         os.makedirs(f"markdown/{folder}", exist_ok=True)
 
-        os.rename(directory + os.sep + file, f"markdown/{folder}/{new_name}")
-
-        line_prepender(f"markdown/{folder}/{new_name}", '<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>')
-
-
+        if(file == f"markdown/{folder}/{new_name}"):
+            print(f"file already formatted, only edit required \n")
+        else:
+            os.rename(directory + os.sep + file, f"markdown/{folder}/{new_name}")
+            line_prepender(f"markdown/{folder}/{new_name}", '<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>')
 
         file = os.path.split(file)
 
