@@ -1,4 +1,4 @@
-# >[sjcobb2022.github.io](sjcobb2022.github.io)
+# [sjcobb2022.github.io](sjcobb2022.github.io)
 
 
 ## Formatting
