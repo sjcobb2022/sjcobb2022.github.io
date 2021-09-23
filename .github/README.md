@@ -34,4 +34,4 @@ additional info is optional, but it can be used to specify the type of work
 
 The build python script should take care of any new markdown files. Files can be uploaded to any directory (other than ```.github```), and the file will be formatted and placed in the correct folder.
 
-If the file already exists, an error is thrown
+If the file already exists, an error will be thrown.
