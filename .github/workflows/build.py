@@ -33,7 +33,7 @@ def main(file, directory):
 
         f = open(directory + "/index.md", 'w')
         f.write("# File Sharing")
-        f.write("\n <br> \n\n")
+        f.write("\n\n")
 
         for i in range(len(subdirs)):
             subfiles = next(os.walk(directory + "/" + subdirs[i]))[2]
