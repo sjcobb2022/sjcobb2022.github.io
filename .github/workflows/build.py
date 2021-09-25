@@ -42,7 +42,7 @@ def main(file, directory):
 
             file_sub = glob.glob(f"_notes/{subject}/*/")
 
-            if length(list(file_sub)) > 0:
+            if len(list(file_sub)) > 0:
 
                 f.write(f"## {subject} \n")
 
