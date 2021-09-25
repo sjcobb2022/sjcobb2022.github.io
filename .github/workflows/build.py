@@ -50,6 +50,8 @@ def main(file, directory):
 
                 for sub_file in list(file_sub):
 
+                    print("SUB FILE!!!", sub_file)
+
                     print(f">[{os.path.splitext(ntpath.basename(sub_file))[0]}]({sub_file})\n>\n")
 
                     f.write(f">[{os.path.splitext(ntpath.basename(sub_file))[0]}]({sub_file})\n>\n")
