@@ -42,7 +42,7 @@ def main(file, directory):
 #
         for subject in list(subject_sub):
 
-            file_sub = glob.glob(f"_notes/{subject}/*/")
+            file_sub = glob.glob(f"{subject}/*/")
 
             if len(list(file_sub)) > 0:
 
