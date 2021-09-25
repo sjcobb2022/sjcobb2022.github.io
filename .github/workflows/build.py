@@ -13,7 +13,7 @@ def line_prepender(filename, line):
 def main(file, directory):
     print("printing file and directory", file, directory)
 #     I probabaly dont need to check if hte file ends with md since the github action only passes md files but thats fine
-    if (False and file.endswith(".md") and not file.startswith('.github') and ntpath.basename(file) != "index.md"):
+    if (file.endswith(".md") and not file.startswith('.github') and ntpath.basename(file) != "index.md"):
 
 #         new_name = os.path.split(file)[1].replace(" ", "-")
 #         folder = new_name.split("-")[0].capitalize()
@@ -47,6 +47,8 @@ def main(file, directory):
                 f.write(f"## {subject} \n")
 
                 for sub_file in list(file_sub):
+
+                    print(f">[{os.path.splitext(ntpath.basename(sub_file))[0]}]({sub_file})\n>\n")
 
                     f.write(f">[{os.path.splitext(ntpath.basename(sub_file))[0]}]({sub_file})\n>\n")
 
