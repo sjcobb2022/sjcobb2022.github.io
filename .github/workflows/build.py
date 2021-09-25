@@ -60,7 +60,7 @@ def main(file, directory):
 
                     print(f">[{path_list[-1]}]({sub_file + path_list[-1]})\n>\n")
 
-                    f.write(f">[{sub_file + path_list[-1]}]({path_list[-1]})\n>\n")
+                    f.write(f">[{path_list[-1]}]({sub_file + path_list[-1]})\n>\n")
 
                 f.write("\n")
 
