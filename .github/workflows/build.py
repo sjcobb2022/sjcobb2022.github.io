@@ -52,7 +52,9 @@ def main(file, directory):
 
                     print("SUB FILE!!!", sub_file)
 
-                    print(f">[{os.path.splitext(ntpath.basename(sub_file))[0]}]({sub_file + os.sep + ntpath.basename(sub_file)})\n>\n")
+                    print("BASE NAME", os.path.split(sub_file))
+
+                    print(f">[{os.path.splitext(ntpath.basename(sub_file))[0]}]({sub_file + ntpath.basename(sub_file)})\n>\n")
 
                     f.write(f">[{os.path.splitext(ntpath.basename(sub_file))[0]}]({sub_file})\n>\n")
 
