@@ -46,7 +46,7 @@ def main(file, directory):
 
             if len(list(file_sub)) > 0:
 
-                f.write(f"## {os.path.normpath(subject).split(os.sep))} \n")
+                f.write(f"## { os.path.normpath(subject).split(os.sep)[-1] } \n")
 
                 for sub_file in list(file_sub):
 
