@@ -3,6 +3,8 @@ import sys
 import ntpath
 import glob
 
+math_jax_script = '<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>'
+
 def line_prepender(filename, line):
     with open(filename, 'r+') as f:
         content = f.read()
@@ -15,15 +17,27 @@ def main(file, directory):
 #     I probabaly dont need to check if hte file ends with md since the github action only passes md files but thats fine
     if (file.endswith(".md") and not file.startswith('.github') and ntpath.basename(file) != "index.md"):
 
+        with open(file) as f:
+            first_line = f.readline()
+
+        if first_line != math_jax_script:
+            line_prepender(file, math_jax_script)
+
+
 
 #         new_name = os.path.split(file)[1].replace(" ", "-")
 #         folder = new_name.split("-")[0].capitalize()
 
-#         if not file.startswith("_notes"):
-#             folder = new_name.split("-")[0].capitalize()
+        if not file.startswith("_notes"):
+#             folder = file.split("-")[0].capitalize()
+#             os.makedirs(f"_notes/{folder}", exist_ok=True)
+            os.rename(file, f"_notes/Other/{os.path.split(file)[1]}")
+        else:
+            # build the index files for sub folders
+            # use index.md it will be muhc better
+            print('is in notes')
 
-#         os.makedirs(f"_notes/{folder}", exist_ok=True)
-#
+
 #         if(file == f"markdown/{folder}/{new_name}"):
 #             print(f"file already formatted, only edit required \n")
 #         else:
