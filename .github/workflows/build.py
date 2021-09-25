@@ -44,7 +44,11 @@ def main(file, directory):
 
             file_sub = glob.glob(f"{subject}/*/")
 
-            subject_name = os.path.normpath(subject).split(os.sep)[-1]
+            my_subject_path = os.path.normpath(subject)
+
+            print("subject path name", my_subject_path.split(os.sep))
+
+#             subject_name = os.path.normpath(subject).split(os.sep)[-1]
 
             if len(list(file_sub)) > 0:
 
