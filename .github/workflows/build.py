@@ -44,15 +44,9 @@ def main(file, directory):
 
             file_sub = glob.glob(f"{subject}/*/")
 
-            my_subject_path = os.path.normpath(subject)
-
-            print("subject path name", my_subject_path.split(os.sep))
-
-#             subject_name = os.path.normpath(subject).split(os.sep)[-1]
-
             if len(list(file_sub)) > 0:
 
-                f.write(f"## {subject} \n")
+                f.write(f"## {os.path.normpath(subject).split(os.sep))} \n")
 
                 for sub_file in list(file_sub):
 
