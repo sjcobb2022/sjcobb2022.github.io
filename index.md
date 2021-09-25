@@ -25,9 +25,9 @@
 >
 
 ## Business 
->[Leadership and management](notes/Business/Leadership and management/Leadership and management)
+>[Leadership and management](notes/Business/Leadership and Management/Leadership and management)
 >
->[private](notes/Business/private/private)
+>[private](notes/Business/_private/private)
 >
 >[Finance](notes/Business/Finance/Finance)
 >
