@@ -28,10 +28,10 @@ def main(file, directory):
 #         new_name = os.path.split(file)[1].replace(" ", "-")
 #         folder = new_name.split("-")[0].capitalize()
 
-        if not file.startswith("_notes"):
+        if not file.startswith("markdown"):
 #             folder = file.split("-")[0].capitalize()
 #             os.makedirs(f"_notes/{folder}", exist_ok=True)
-            os.rename(file, f"_notes/Other/{os.path.split(file)[1]}")
+            os.rename(file, f"markdown/Other/{os.path.split(file)[1]}")
         else:
             # build the index files for sub folders
             # use index.md it will be muhc better
