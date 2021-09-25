@@ -13,42 +13,61 @@ def line_prepender(filename, line):
 def main(file, directory):
     print(file, directory)
 #     I probabaly dont need to check if hte file ends with md since the github action only passes md files but thats fine
-    if (False and file.endswith(".md") and not file.startswith('.github') and ntpath.basename(file) != "index.md"):
+    if (file.endswith(".md") and not file.startswith('.github') and ntpath.basename(file) != "index.md"):
 
-        new_name = os.path.split(file)[1].replace(" ", "-")
-        folder = new_name.split("-")[0].capitalize()
+#         new_name = os.path.split(file)[1].replace(" ", "-")
+#         folder = new_name.split("-")[0].capitalize()
 
-        os.makedirs(f"markdown/{folder}", exist_ok=True)
+#         if not file.startswith("_notes"):
+#             folder = new_name.split("-")[0].capitalize()
 
-        if(file == f"markdown/{folder}/{new_name}"):
-            print(f"file already formatted, only edit required \n")
-        else:
-            os.rename(directory + os.sep + file, f"markdown/{folder}/{new_name}")
-            line_prepender(f"markdown/{folder}/{new_name}", '<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>')
-
-        file = os.path.split(file)
-
-        subdirs = glob.glob("markdown/*/")
-
-
+#         os.makedirs(f"_notes/{folder}", exist_ok=True)
+#
+#         if(file == f"markdown/{folder}/{new_name}"):
+#             print(f"file already formatted, only edit required \n")
+#         else:
+#             os.rename(directory + os.sep + file, f"markdown/{folder}/{new_name}")
+#             line_prepender(f"markdown/{folder}/{new_name}", '<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>')
+#
+#         file = os.path.split(file)
+#
+        subject_sub = glob.glob("_notes/*/")
+#
         f = open(directory + "/index.md", 'w')
         f.write("# File Sharing")
+
         f.write("\n\n")
+#
+        for subject in list(subject_sub):
 
-        for i in range(len(subdirs)):
-            subfiles = next(os.walk(directory + "/" + subdirs[i]))[2]
+            file_sub = glob.glob(f"_notes/{subject}/*/")
 
-            if len(subfiles) > 0:
-               path = os.path.normpath(subdirs[i])
-               f.write(f"## {path.split(os.sep)[-1]} \n")
+            if length(list(file_sub)) > 0:
 
-            for j in range(len(subfiles)):
-                f.write(f">[{os.path.splitext(ntpath.basename(subfiles[j]))[0]}]({subdirs[i] + os.path.splitext(ntpath.basename(subfiles[j]))[0]})\n>\n")
+                f.write(f"## {subject} \n")
 
-            f.write("\n")
+                for sub_file in list(file_sub):
+
+                    f.write(f">[{os.path.splitext(ntpath.basename(sub_file))[0]}]({sub_file})\n>\n")
+
+                f.write("\n")
 
         f.close()
 
 
+#             subfiles = next(os.walk(directory + "/" + subdirs[i]))[2]
+#
+#             if len(subfiles) > 0:
+#                path = os.path.normpath(subdirs[i])
+#                f.write(f"## {path.split(os.sep)[-1]} \n")
+#
+#             for j in range(len(subfiles)):
+#                 f.write(f">[{os.path.splitext(ntpath.basename(subfiles[j]))[0]}]({subdirs[i] + os.path.splitext(ntpath.basename(subfiles[j]))[0]})\n>\n")
+#
+#             f.write("\n")
+#
+#         f.close()
+#
+
 if __name__ == "__main__":
-    main(sys.argv[1], sys.argv[2])
+    main(' '.join(sys.argv[1:-1]), sys.argv[-1])
