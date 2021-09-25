@@ -70,4 +70,5 @@ def main(file, directory):
 #
 
 if __name__ == "__main__":
+    print(sys.argv)
     main(' '.join(sys.argv[1:-1]), sys.argv[-1])
