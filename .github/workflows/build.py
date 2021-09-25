@@ -13,7 +13,7 @@ def line_prepender(filename, line):
 def main(file, directory):
     print(file, directory)
 #     I probabaly dont need to check if hte file ends with md since the github action only passes md files but thats fine
-    if (file.endswith(".md") and not file.startswith('.github') and ntpath.basename(file) != "index.md"):
+    if (False and file.endswith(".md") and not file.startswith('.github') and ntpath.basename(file) != "index.md"):
 
         new_name = os.path.split(file)[1].replace(" ", "-")
         folder = new_name.split("-")[0].capitalize()
