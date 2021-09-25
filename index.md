@@ -1,10 +1,10 @@
 # File Sharing
 
-## _notes/Math/ 
+## Math 
 >[Probability](_notes/Math/Probability/Probability)
 >
 
-## _notes/CS/ 
+## CS 
 >[GA](_notes/CS/GA/GA)
 >
 >[private](_notes/CS/private/private)
@@ -12,11 +12,11 @@
 >[Data Types](_notes/CS/Data Types/Data Types)
 >
 
-## _notes/Physics/ 
+## Physics 
 >[Electricity and Magenetism](_notes/Physics/Electricity and Magenetism/Electricity and Magenetism)
 >
 
-## _notes/English/ 
+## English 
 >[Literary Criticism](_notes/English/Literary Criticism/Literary Criticism)
 >
 >[private](_notes/English/private/private)
@@ -24,7 +24,7 @@
 >[PreU-1](_notes/English/PreU-1/PreU-1)
 >
 
-## _notes/Business/ 
+## Business 
 >[Leadership and management](_notes/Business/Leadership and management/Leadership and management)
 >
 >[private](_notes/Business/private/private)
