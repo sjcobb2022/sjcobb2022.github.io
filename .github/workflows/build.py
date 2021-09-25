@@ -72,7 +72,7 @@ def main(file, directory):
 if __name__ == "__main__":
 
     print('system arguments', sys.argv)
-    all_files = sys.argv[1].split(", ")
+    all_files = sys.argv[1].split(",")
 
     for file in all_files:
         print("print file", file)
