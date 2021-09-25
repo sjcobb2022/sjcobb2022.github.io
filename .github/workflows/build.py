@@ -32,6 +32,8 @@ def main(file, directory):
 #         file = os.path.split(file)
 #
         subject_sub = glob.glob("_notes/*/")
+
+        print("subjects", list(subject_sub))
 #
         f = open(directory + "/index.md", 'w')
         f.write("# File Sharing")
