@@ -54,11 +54,11 @@ def main(file, directory):
 
                     my_path = os.path.normpath(sub_file)
 
-                    print("BASE NAME", my_path.split(os.sep))
+                    path_list = my_path.split(os.sep))
 
-                    print(f">[{os.path.splitext(ntpath.basename(sub_file))[0]}]({sub_file + ntpath.basename(sub_file)})\n>\n")
+                    print(f">[{sub_file + path_list[-1]}]({path_list[-1]})\n>\n")
 
-                    f.write(f">[{os.path.splitext(ntpath.basename(sub_file))[0]}]({sub_file})\n>\n")
+                    f.write(f">[{sub_file + path_list[-1]}]({path_list[-1]})\n>\n")
 
                 f.write("\n")
 
