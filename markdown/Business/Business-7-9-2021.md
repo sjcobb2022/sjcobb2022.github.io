@@ -15,6 +15,7 @@ Examples of e-markets:
 
 
 
+
 ## Features of e-commerce
 
 **Global Reach** - e-commerce breaks geographical barriers, allowing businesses to sell their products anywhere in the world.
