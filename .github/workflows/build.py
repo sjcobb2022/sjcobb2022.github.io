@@ -56,7 +56,9 @@ def main(file, directory):
 
                     path_list = my_path.split(os.sep)
 
-                    print(f">[{sub_file + path_list[-1]}]({path_list[-1]})\n>\n")
+
+
+                    print(f">[{path_list[-1]}]({sub_file + path_list[-1]})\n>\n")
 
                     f.write(f">[{sub_file + path_list[-1]}]({path_list[-1]})\n>\n")
 
