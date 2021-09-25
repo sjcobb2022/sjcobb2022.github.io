@@ -54,7 +54,7 @@ def main(file, directory):
 
                     my_path = os.path.normpath(sub_file)
 
-                    path_list = my_path.split(os.sep))
+                    path_list = my_path.split(os.sep)
 
                     print(f">[{sub_file + path_list[-1]}]({path_list[-1]})\n>\n")
 
