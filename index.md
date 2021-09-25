@@ -1,42 +1,42 @@
 # File Sharing
 
 ## Math 
->[Probability](notes/Math/Probability/Probability)
+>[Probability](markdown/Math/Probability/Probability)
 >
 
 ## CS 
->[GA](notes/CS/GA/GA)
+>[GA](markdown/CS/GA/GA)
 >
->[private](notes/CS/_private/private)
+>[private](markdown/CS/_private/private)
 >
->[Data Types](notes/CS/Data Types/Data Types)
+>[Data Types](markdown/CS/Data Types/Data Types)
 >
 
 ## Physics 
->[Electricity and Magenetism](notes/Physics/Electricity and Magenetism/Electricity and Magenetism)
+>[Electricity and Magenetism](markdown/Physics/Electricity and Magenetism/Electricity and Magenetism)
 >
 
 ## English 
->[Literary Criticism](notes/English/Literary Criticism/Literary Criticism)
+>[Literary Criticism](markdown/English/Literary Criticism/Literary Criticism)
 >
->[private](notes/English/_private/private)
+>[private](markdown/English/_private/private)
 >
->[PreU-1](notes/English/PreU-1/PreU-1)
+>[PreU-1](markdown/English/PreU-1/PreU-1)
 >
 
 ## Business 
->[_private](notes/Business/_private/_private)
+>[_private](markdown/Business/_private/_private)
 >
->[Finance](notes/Business/Finance/Finance)
+>[Finance](markdown/Business/Finance/Finance)
 >
->[Organisation  Planning](notes/Business/Organisation  Planning/Organisation  Planning)
+>[Organisation  Planning](markdown/Business/Organisation  Planning/Organisation  Planning)
 >
->[Function and Evolution of HRM](notes/Business/Function and Evolution of HRM/Function and Evolution of HRM)
+>[Function and Evolution of HRM](markdown/Business/Function and Evolution of HRM/Function and Evolution of HRM)
 >
->[Marketing](notes/Business/Marketing/Marketing)
+>[Marketing](markdown/Business/Marketing/Marketing)
 >
->[Motivation](notes/Business/Motivation/Motivation)
+>[Motivation](markdown/Business/Motivation/Motivation)
 >
->[Leadership and Management](notes/Business/Leadership and Management/Leadership and Management)
+>[Leadership and Management](markdown/Business/Leadership and Management/Leadership and Management)
 >
 
