@@ -7,7 +7,7 @@
 ## CS 
 >[GA](notes/CS/GA/GA)
 >
->[private](notes/CS/private/private)
+>[private](notes/CS/_private/private)
 >
 >[Data Types](notes/CS/Data Types/Data Types)
 >
@@ -19,7 +19,7 @@
 ## English 
 >[Literary Criticism](notes/English/Literary Criticism/Literary Criticism)
 >
->[private](notes/English/private/private)
+>[private](notes/English/_private/private)
 >
 >[PreU-1](notes/English/PreU-1/PreU-1)
 >
