@@ -31,7 +31,7 @@ def main(file, directory):
 #
 #         file = os.path.split(file)
 #
-        subject_sub = glob.glob("_notes/*/")
+        subject_sub = glob.glob("notes/*/")
 
         print("subjects", list(subject_sub))
 #
