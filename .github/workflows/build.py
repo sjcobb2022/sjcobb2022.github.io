@@ -45,7 +45,7 @@ def main(file, directory):
 
             for fn in files:
                 print(f"[{file_location_array[-1]}](/{file_location_array[-1]})\n\n")
-                index.write(f"[{file_location_array[-1]}]({file_location_array[-1]})\n\n")
+                index.write(f"[{ntpath.basename(file_location_array[-1])}]({ntpath.basename(file_location_array[-1])})\n\n")
 
 
 
