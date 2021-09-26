@@ -24,7 +24,7 @@ jobs:
       - name: python_test
         run: |
           for file in "${{ steps.changed-files.outputs.all_modified_files }}"; do
-            python ./.github/workflows/build.py "$file" "${{github.workspace}}"
+            python ./.github/workflows/build.py "$file" "${{github.workspace}}" && echo "-------------------------------------------------------------\n\n"
           done
       - name: apply _markdown
         uses: stefanzweifel/git-auto-commit-action@v4
