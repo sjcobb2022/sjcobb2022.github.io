@@ -2,7 +2,6 @@
 
 English Notes 13/1/2021
 
-
 ## Supreme vs Barbara Kruger
  - hypocrisy of lawsuit against another company when they took her style
 

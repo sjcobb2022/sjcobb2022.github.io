@@ -3,7 +3,6 @@
 
 # Motivation
 
-
 wall street journal
 
 

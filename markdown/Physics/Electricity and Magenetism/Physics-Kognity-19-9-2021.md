@@ -1,3 +1,4 @@
+
 # Circuits, potential, and current
 
 ## A simple electric circuit contains the following components:

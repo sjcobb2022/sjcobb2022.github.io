@@ -1,5 +1,4 @@
 
-
 # Organizational structure
 
  flat and tall

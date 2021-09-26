@@ -1,7 +1,6 @@
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 # E-Commerce
 
-
 When was the last time you bought something online?
 
 

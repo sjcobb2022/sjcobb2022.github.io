@@ -1,3 +1,4 @@
+
 # Physics HL Kognity Notes
 
 ## Big picture

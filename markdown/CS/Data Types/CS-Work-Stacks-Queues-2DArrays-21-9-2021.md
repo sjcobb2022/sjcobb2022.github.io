@@ -1,5 +1,4 @@
 
-
  -  Company X stores the amount of keyboards it produces daily on list named PROD. The first element of the list is always a Monday. You may assume no day is left out. 
 	 -  convert PROD into a 2D list where every index is a day. 
 	 - create an algorithm that gets the day with the highest average amount of production 

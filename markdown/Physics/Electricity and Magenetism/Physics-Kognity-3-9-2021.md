@@ -1,3 +1,4 @@
+
 # Physics Kognity 3/8/2021
 
 |                | Gravitational                                                                                | Electric                                                                                                                  |
