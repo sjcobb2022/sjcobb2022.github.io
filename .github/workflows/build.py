@@ -20,7 +20,7 @@ def main(file, directory):
         with open(file) as f:
             first_line = f.readline()
 
-            print("first_line")
+#             print("first_line")
 
             if first_line != math_jax_script:
                 line_prepender(file, math_jax_script)
@@ -30,22 +30,22 @@ def main(file, directory):
         file_location_array = file_path.split(os.sep)
 
         print('file_path', file_path)
-
-        print('file_location_array', file_location_array)
-
-        print(os.path.split(file_path)[0] + "/index.md")
+#
+#         print('file_location_array', file_location_array)
+#
+#         print(os.path.split(file_path)[0] + "/index.md")
 
         with open(f"{os.path.split(file_path)[0]}/index.md", "w") as index:
 
             print(f"# {file_location_array[-2]}")
             index.write(f"# {file_location_array[-2]}\n\n")
 
-#             print(f"{os.path.split(file_path)[0] + os.sep} *.md")
+            print(f"{os.path.split(file_path)[0] + os.sep} *.md")
 
             files = [fn for fn in glob.glob(f"{os.path.split(file_path)[0] + os.sep}*.md")
                      if not os.path.basename(fn).startswith('index')]
 
-            print(files)
+#             print(files)
 
             for fn in files:
                 print(f"[{os.path.splitext(ntpath.basename(fn))[0]}]({os.path.splitext(ntpath.basename(fn))[0]})\n\n")
@@ -102,7 +102,7 @@ def main(file, directory):
 
                     path_list = my_path.split(os.sep)
 
-                    print(f">[{path_list[-1]}]({sub_file}/)\n>\n")
+#                     print(f">[{path_list[-1]}]({sub_file}/)\n>\n")
 
                     f.write(f">[{path_list[-1]}]({sub_file})\n>\n")
 
@@ -131,9 +131,11 @@ if __name__ == "__main__":
     all_files = sys.argv[1].split(",")
 
     for file in all_files:
-        print("print file", file)
+#         print("print file", file)
         main(file, sys.argv[-1])
 
+        print("-"*40+"\n\n")
 
-    print("-"*20+"\n\n")
+
+
 
