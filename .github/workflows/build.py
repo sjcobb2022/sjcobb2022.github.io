@@ -44,8 +44,8 @@ def main(file, directory):
                      if not os.path.basename(fn).startswith('index')]
 
             for fn in files:
-                print(f"[{os.path.splitext(file_location_array[-1])[0]}]({os.path.splitext(ntpath.basename(file_location_array[-1]))})\n\n")
-                index.write(f"[{os.path.splitext(file_location_array[-1])[0]}]({os.path.splitext(ntpath.basename(file_location_array[-1]))})\n\n")
+                print(f"[{os.path.splitext(file_location_array[-1])[0]}]({os.path.splitext(ntpath.basename(file_location_array[-1]))[0]})\n\n")
+                index.write(f"[{os.path.splitext(file_location_array[-1])[0]}]({os.path.splitext(ntpath.basename(file_location_array[-1]))[0]})\n\n")
 
 
 
