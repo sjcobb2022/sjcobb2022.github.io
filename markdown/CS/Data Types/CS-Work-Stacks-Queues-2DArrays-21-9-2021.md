@@ -1,3 +1,4 @@
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
  -  Company X stores the amount of keyboards it produces daily on list named PROD. The first element of the list is always a Monday. You may assume no day is left out. 
 	 -  convert PROD into a 2D list where every index is a day. 
