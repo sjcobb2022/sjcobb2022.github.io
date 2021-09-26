@@ -23,6 +23,33 @@ def main(file, directory):
         if first_line != math_jax_script:
             line_prepender(file, math_jax_script)
 
+        file_path = os.path.normpath(file)
+
+        file_location_array = file_path.split(os.sep)
+
+        print('file_path', file_path)
+
+        print('file_location_array', file_location_array)
+
+        with open(file_path.split()[0] + "index.md") as index:
+
+            print(f"# {file_location_array[-2]}")
+#             index.write(f"# {file_location_array[-2]}")
+
+            files = [fn for fn in glob(f"{file_path.split()[0]}*.md")
+                     if not os.path.basename(fn).startswith('index')]
+
+            print("files", files)
+
+            for fn in files:
+                print(f"[{file_location_array[-1]}]({file_location_array[-1]})\n\n")
+#                 f.write(f"[{file_location_array[-1]}]({file_location_array[-1]})\n\n")
+
+
+
+
+
+
 
 
 #         new_name = os.path.split(file)[1].replace(" ", "-")
@@ -65,13 +92,13 @@ def main(file, directory):
 
                 for sub_file in list(file_sub):
 
-                    print("SUB FILE!!!", sub_file)
+#                     print("SUB FILE!!!", sub_file)
 
                     my_path = os.path.normpath(sub_file)
 
                     path_list = my_path.split(os.sep)
 
-                    print(f">[{path_list[-1]}]({sub_file + path_list[-1]})\n>\n")
+                    print(f">[{path_list[-1]}/]({sub_file}/)\n>\n")
 
                     f.write(f">[{path_list[-1]}]({sub_file + path_list[-1]})\n>\n")
 
