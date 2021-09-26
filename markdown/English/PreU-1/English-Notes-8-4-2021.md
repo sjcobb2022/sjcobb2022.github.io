@@ -1,3 +1,4 @@
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 ## Visual literacy
  - refers to a group of vision competencies by seeing at the same time as using other sensory experiences
  - ability to understand and use images including the ability to think learn and express oneself in terms of image
