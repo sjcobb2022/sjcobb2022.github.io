@@ -1,11 +1,12 @@
 # Function and Evolution of HRM
 
-[[HRM-notes]]
+[recruitment-27-1-2021](recruitment-27-1-2021)
 
-[[HR-hiring-practices]]
+[HRM-notes](HRM-notes)
 
-[[HRM-interview-(Ms.-Krys'tll)]]
+[appraisal-3-2-2021](appraisal-3-2-2021)
 
-[[recruitment-27-1-2021]]
+[HR-hiring-practices](HR-hiring-practices)
 
-[[appraisal-3-2-2021]]
+[HRM-interview-(Ms.-Krys'tll)](HRM-interview-(Ms.-Krys'tll))
+
