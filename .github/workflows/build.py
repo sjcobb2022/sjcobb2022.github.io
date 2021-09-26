@@ -54,16 +54,13 @@ def main(file, directory):
 
 
 
-
-
-
 #         new_name = os.path.split(file)[1].replace(" ", "-")
 #         folder = new_name.split("-")[0].capitalize()
 
         if not file.startswith("markdown"):
 #             folder = file.split("-")[0].capitalize()
 #             os.makedirs(f"_notes/{folder}", exist_ok=True)
-            os.rename(file, f"markdown/Other/{os.path.split(file)[1]}")
+            os.rename(file, f"markdown/Other/{os.path.split(file)[-1]}")
         else:
             # build the index files for sub folders
             # use index.md it will be muhc better
@@ -103,9 +100,9 @@ def main(file, directory):
 
                     path_list = my_path.split(os.sep)
 
-                    print(f">[{path_list[-1]}/]({sub_file}/)\n>\n")
+                    print(f">[{path_list[-1]}]({sub_file}/)\n>\n")
 
-                    f.write(f">[{path_list[-1]}]({sub_file + path_list[-1]})\n>\n")
+                    f.write(f">[{path_list[-1]}]({sub_file})\n>\n")
 
                 f.write("\n")
 
