@@ -1,6 +1,5 @@
 # Case Study SW
 
-
 ## Define Computational intractability.
 
 Intractable problems are problems in which there are not efficient algorithm to solve them. Computationally, this means that there are no efficient algorithms to solve a specific problem. 

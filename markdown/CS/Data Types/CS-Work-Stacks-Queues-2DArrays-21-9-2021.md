@@ -5,6 +5,7 @@
  - The stack S has X elements. Using the queue Q invert the elements of the stack S
 
 
+
 <br/>
 
 
