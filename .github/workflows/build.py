@@ -46,8 +46,9 @@ def main(file, directory):
             print(files)
 
             for fn in files:
-                print(f"[{os.path.splitext(file_location_array[-1])[0]}]({os.path.splitext(ntpath.basename(file_location_array[-1]))[0]})\n\n")
-                index.write(f"[{os.path.splitext(file_location_array[-1])[0]}]({os.path.splitext(ntpath.basename(file_location_array[-1]))[0]})\n\n")
+                print(f"[{os.path.splitext(fn)[0]}]({os.path.splitext(fn))[0]})\n\n")
+
+                index.write(f"[{os.path.splitext(fn)[0]}]({os.path.splitext(fn))[0]})\n\n")
 
 
 
