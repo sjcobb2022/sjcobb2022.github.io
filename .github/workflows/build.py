@@ -43,6 +43,8 @@ def main(file, directory):
             files = [fn for fn in glob.glob(f"{os.path.split(file_path)[0] + os.sep}*.md")
                      if not os.path.basename(fn).startswith('index')]
 
+            print(files)
+
             for fn in files:
                 print(f"[{os.path.splitext(file_location_array[-1])[0]}]({os.path.splitext(ntpath.basename(file_location_array[-1]))[0]})\n\n")
                 index.write(f"[{os.path.splitext(file_location_array[-1])[0]}]({os.path.splitext(ntpath.basename(file_location_array[-1]))[0]})\n\n")
