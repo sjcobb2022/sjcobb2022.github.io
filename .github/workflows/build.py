@@ -33,7 +33,7 @@ def main(file, directory):
 
         print(os.path.split(file_path)[0] + "/index.md")
 
-        with open(os.path.split(file_path)[0] + "/index.md") as index:
+        with open(f"{os.path.split(file_path)[0]}/index.md") as index:
 
             print(f"# {file_location_array[-2]}")
             index.write(f"# {file_location_array[-2]}")
