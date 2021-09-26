@@ -1,6 +1,5 @@
 # Motivation
 
-
 wall street journal
 
 
