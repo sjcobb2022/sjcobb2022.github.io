@@ -1,4 +1,4 @@
-name: Actions Test
+name: Format Action
 on:
   push:
     paths:
@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest  # windows-latest | macos-latest
-    name: Test changed-files
+    name: Formatting files for github pages
     steps:
       - uses: actions/checkout@v2
         with:
@@ -21,10 +21,10 @@ jobs:
             for file in "${{ steps.changed-files.outputs.all_modified_files }}"; do
               echo "$file was modified"
             done
-      - name: python_test
+      - name: run python formatter
         run: |
           for file in "${{ steps.changed-files.outputs.all_modified_files }}"; do
-            python ./.github/workflows/build.py "$file" "${{github.workspace}}" && echo "-------------------------------------------------------------\n\n"
+            python ./.github/workflows/build.py "$file" "${{github.workspace}}"
           done
       - name: apply _markdown
         uses: stefanzweifel/git-auto-commit-action@v4

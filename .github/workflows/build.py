@@ -134,3 +134,6 @@ if __name__ == "__main__":
         print("print file", file)
         main(file, sys.argv[-1])
 
+
+    print("-"*20+"\n\n")
+
