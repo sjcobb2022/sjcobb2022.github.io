@@ -36,7 +36,7 @@ def main(file, directory):
         with open(f"{os.path.split(file_path)[0]}/index.md", "w") as index:
 
             print(f"# {file_location_array[-2]}")
-            index.write(f"# {file_location_array[-2]}")
+            index.write(f"# {file_location_array[-2]}\n\n")
 
 #             print(f"{os.path.split(file_path)[0] + os.sep} *.md")
 
