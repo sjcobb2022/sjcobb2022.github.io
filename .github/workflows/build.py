@@ -39,7 +39,7 @@ def main(file, directory):
 
             print(f"{os.path.split(file_path)[0] + os.sep} *.md")
 
-            files = [fn for fn in glob.glob(f"{file_path.split()[0] + os.sep} *.md")
+            files = [fn for fn in glob.glob(f"{os.path.split(file_path)[0] + os.sep}*.md")
                      if not os.path.basename(fn).startswith('index')]
 
             print("files", files)
