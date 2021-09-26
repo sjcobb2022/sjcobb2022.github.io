@@ -1,6 +1,5 @@
 Business 24/2/2021
 
-
 # Leadership and management
 
 
