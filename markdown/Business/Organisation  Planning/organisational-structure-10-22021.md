@@ -1,6 +1,7 @@
 
 # Organizational structure
 
+
  flat and tall
 	 - flat: few steps between high and low part of hierarchy
 	 - tall: many steps between high and lows

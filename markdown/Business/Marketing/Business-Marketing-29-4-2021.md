@@ -1,6 +1,7 @@
 # Marketing 
 
 
+
 ## Commercial Marketing
  - the use of marketing strategies to meet the needs and wants of customers in profitble way
  - vast majority of marketing activities is commercial markeing. FOr instance the traditional marketing mix focuses mainly on getting the right producs to the right customer in the right place at the right time
