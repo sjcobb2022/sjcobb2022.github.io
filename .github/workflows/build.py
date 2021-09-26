@@ -46,9 +46,9 @@ def main(file, directory):
             print(files)
 
             for fn in files:
-                print(f"[{os.path.splitext(fn)[0]}]({os.path.splitext(fn))[0]})\n\n")
+                print(f"[{os.path.splitext(fn)[0]}]({os.path.splitext(fn)[0]})\n\n")
 
-                index.write(f"[{os.path.splitext(fn)[0]}]({os.path.splitext(fn))[0]})\n\n")
+                index.write(f"[{os.path.splitext(fn)[0]}]({os.path.splitext(fn)[0]})\n\n")
 
 
 
