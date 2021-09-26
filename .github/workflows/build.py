@@ -35,18 +35,16 @@ def main(file, directory):
         with open(os.path.split(file_path)[0] + "/index.md") as index:
 
             print(f"# {file_location_array[-2]}")
-#             index.write(f"# {file_location_array[-2]}")
+            index.write(f"# {file_location_array[-2]}")
 
-            print(f"{os.path.split(file_path)[0] + os.sep} *.md")
+#             print(f"{os.path.split(file_path)[0] + os.sep} *.md")
 
             files = [fn for fn in glob.glob(f"{os.path.split(file_path)[0] + os.sep}*.md")
                      if not os.path.basename(fn).startswith('index')]
 
-            print("files", files)
-
             for fn in files:
-                print(f"[{file_location_array[-1]}]({file_location_array[-1]})\n\n")
-#                 f.write(f"[{file_location_array[-1]}]({file_location_array[-1]})\n\n")
+                print(f"[{file_location_array[-1]}](/{file_location_array[-1]})\n\n")
+                index.write(f"[{file_location_array[-1]}]({file_location_array[-1]})\n\n")
 
 
 
