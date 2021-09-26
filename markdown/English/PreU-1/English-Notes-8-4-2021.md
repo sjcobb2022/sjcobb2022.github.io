@@ -3,6 +3,7 @@
  - ability to understand and use images including the ability to think learn and express oneself in terms of image
 
 
+
 ## Music video
  - consists of audible sounds and visual images. our concern is a shot: a basic unt =f image
  -  - a scene is a series of shits

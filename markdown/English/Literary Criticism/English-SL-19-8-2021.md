@@ -1,6 +1,5 @@
 # Representation in Written and Visual Media
 
-
 ## Getting Started
 
 <br>
