@@ -20,8 +20,10 @@ def main(file, directory):
         with open(file) as f:
             first_line = f.readline()
 
-        if first_line != math_jax_script:
-            line_prepender(file, math_jax_script)
+            print("first_line")
+
+            if first_line != math_jax_script:
+                line_prepender(file, math_jax_script)
 
         file_path = os.path.normpath(file)
 
