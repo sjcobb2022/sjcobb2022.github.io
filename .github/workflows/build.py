@@ -35,6 +35,8 @@ def main(file, directory):
 #
 #         print(os.path.split(file_path)[0] + "/index.md")
 
+        print("where the index going", f"{os.path.split(file_path)[0]}/index.md")
+
         with open(f"{os.path.split(file_path)[0]}/index.md", "w") as index:
 
             print(f"# {file_location_array[-2]}")
@@ -48,12 +50,10 @@ def main(file, directory):
 #             print(files)
 
             for fn in files:
+
                 print(f"[{os.path.splitext(ntpath.basename(fn))[0]}]({os.path.splitext(ntpath.basename(fn))[0]})\n\n")
 
                 index.write(f"[{os.path.splitext(ntpath.basename(fn))[0]}]({os.path.splitext(ntpath.basename(fn))[0]})\n\n")
-
-
-
 
 
 #         new_name = os.path.split(file)[1].replace(" ", "-")
@@ -102,6 +102,8 @@ def main(file, directory):
 
                     path_list = my_path.split(os.sep)
 
+                    print(f">[{path_list[-1]}]({sub_file})\n>\n")
+
 #                     print(f">[{path_list[-1]}]({sub_file}/)\n>\n")
 
                     f.write(f">[{path_list[-1]}]({sub_file})\n>\n")
@@ -132,6 +134,8 @@ if __name__ == "__main__":
 
     for file in all_files:
 #         print("print file", file)
+
+        print(file)
         main(file, sys.argv[-1])
 
         print("-"*40+"\n\n")
