@@ -1,4 +1,3 @@
-
 # Motivation
 
 wall street journal
