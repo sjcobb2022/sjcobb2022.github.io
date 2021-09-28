@@ -1,4 +1,4 @@
 # Math Notes
 
-[[Probability]]
+[[Probability/index]]
 

@@ -1,16 +1,16 @@
 # Business
 
-[[Function and Evolution of HRM]]
+[[Function and Evolution of HRM/index | Function and Evolution of HRM]]
 
-[[Leadership and Management]]
+[[Leadership and Management/index | Leadership and Management]]
 
-[[Organisation Planning]]
+[[Business/Organisation  Planning/index| Organisation Planning]]
 
-[[Motivation]]
+[[Motivation/index | Motivation]]
 
-[[Marketing]]
+[[Marketing/index | Marketing]]
 
-[[Finance]]
+[[Finance/index | Finance]]
 
-[[Business/private/private]]
+[[Business/_private/private|private]]
 
