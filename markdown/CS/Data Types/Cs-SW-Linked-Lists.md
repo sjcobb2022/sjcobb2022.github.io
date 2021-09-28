@@ -65,6 +65,8 @@ For example:
 -   Any stay in the car park that exceeds 4 hours cost 30.00 EUR
 
 6.  Construct the steps of an algorithm that calculates the amount that a ticket is to be charged. [5]
+
+
 ```java
 
 TICKET
@@ -91,6 +93,7 @@ OUT COST
 	
 
 ```
+
 
 2.  Identify the components of a node in a doubly linked list. [3]
      - A node in a doubly linked list has 3 main features, its data, the previous address and the next address.
@@ -131,7 +134,6 @@ else
 	clear memeory from curr_node or something or something like delete curr_node
 
 endif
-
 
 
 ```
