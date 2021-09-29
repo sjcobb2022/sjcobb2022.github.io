@@ -1,5 +1,6 @@
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
+
 # Finance and accounts
 
 Finance is the study of making decisions that involve money
@@ -14,7 +15,6 @@ Finance is the study of making decisions that involve money
  - Cash flow
  - Investment appraisal
  - Budgeting
-
 
 
 ## Source of Finance
