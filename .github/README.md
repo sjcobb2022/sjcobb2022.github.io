@@ -23,10 +23,6 @@ All files should be named in the same convention to prevent bugs.
 
 additional info is optional, but it can be used to specify the type of work
 
-
-
-<br/>
-
 ### Uploading
 
 The build python script should take care of any new markdown files. Files can be uploaded to any directory (other than ```.github```), and the file will be formatted and placed in the correct folder.
