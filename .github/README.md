@@ -25,9 +25,6 @@ additional info is optional, but it can be used to specify the type of work
 
 
 
-> **WARNING**: No spaces should be used in file names as it messes with my git action.
-
-
 <br/>
 
 ### Uploading
