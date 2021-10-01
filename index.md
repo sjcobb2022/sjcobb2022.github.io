@@ -7,6 +7,8 @@
 ## CS 
 >[GA](markdown/CS/GA/)
 >
+>[Components Of a Computer System](markdown/CS/Components Of a Computer System/)
+>
 >[Data Types](markdown/CS/Data Types/)
 >
 
