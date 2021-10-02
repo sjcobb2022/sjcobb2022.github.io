@@ -87,25 +87,41 @@ This practice allow the firm to compare like-with-like and enable historical com
 
 **Structure**
 >Sales Revenue
+> 
 >Costs of Goods Sold
+> 
 >**Gross Profit**
+> 
 >Less Expenses
+> 
 >Net profit before interest and tax
+> 
 >less interest
+> 
 >net profit before tax
+> 
 >less tax 
+> 
 >**Net profit after interest and tax.**
 
 
 **Example**:
 > Sales Revue = 135000
+> 
 > COGS = 34000
+> 
 > GROSS profit = 101000
+> 
 > Less expenses = 16000
+> 
 > NET PROFIT b4 interest and tax = 85000
+> 
 > less interest = 7000
+> 
 > net profit before tax = 78000
+> 
 > tax = 7800
+> 
 > Net profit after interest and tax = 70200
 
 
