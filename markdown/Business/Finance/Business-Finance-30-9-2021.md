@@ -1,5 +1,6 @@
 # Finance: Final Accounts
 
+
 ## Profit loss account (income statement)
 
  - a financial statement of a forms trading activities over a period of time, usually one year.
