@@ -1,4 +1,3 @@
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 # Finances: Appropriation account
 
 ## Dividends
@@ -33,7 +32,7 @@
 > Retained Profit
 
 
-![[definitions.png]]
+![definitions.png](definitions.png)
 
 > **FOCUS ON NET PROFIT BEFRE INTEREST AND TAX (HOW WELL A COMPANY IS OPERATING)**
 > 
@@ -60,8 +59,7 @@ This formula is intuitive: a company has to pay for all the things it owns (asse
 
 Tells you what you own and what you owe.
 
-![[balance sheet.png]]
-
+![balance sheet.png](balance sheet.png)
 
 
 ### Assets

@@ -1,4 +1,3 @@
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 # Finance: Balance Sheets
 
 
@@ -10,7 +9,7 @@
 Construct a balance sheet for Marc Brothers Ltd. Using the financial information below. Reporting day for the balance sheet is 31 March.
 
 
-<br></br>
+<br/>
 
 -   Property = $630,000
     
@@ -32,7 +31,7 @@ Construct a balance sheet for Marc Brothers Ltd. Using the financial information
     
 -   Retained Profit = $81,000
 
-<br></br>
+<br/>
 
 
 >**Fixed assets**
@@ -73,8 +72,7 @@ Construct a balance sheet for Marc Brothers Ltd. Using the financial information
 
 
 
-<br></br>
-<br></br>
+<br/><br/>
 
     
 
@@ -143,7 +141,7 @@ Zawada Electronics Ltd. is an importer and exporter of consumer electronics, spe
 >
 >**Equity:** 225
 
-<br></br>
+<br/>
 
 #### 2014
 
@@ -183,7 +181,7 @@ Zawada Electronics Ltd. is an importer and exporter of consumer electronics, spe
 >
 >**Equity:** 275
 
-<br></br>
+<br/>
 
 ## The balance sheet summary
 
