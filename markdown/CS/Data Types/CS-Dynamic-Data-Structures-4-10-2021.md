@@ -1,3 +1,4 @@
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 # Data Structures: Binary Trees SW
 
 1. How to insert a new node into a binary search tree? `assumes that this is a leaf`

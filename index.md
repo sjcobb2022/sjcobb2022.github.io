@@ -15,6 +15,8 @@
 ## Physics 
 >[Electricity and Magenetism](markdown/Physics/Electricity and Magenetism/)
 >
+>[Kirchoffs Law](markdown/Physics/Kirchoffs Law/)
+>
 
 ## English 
 >[Literary Criticism](markdown/English/Literary Criticism/)
