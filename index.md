@@ -1,21 +1,29 @@
 # File Sharing
 
+## Physics 
+>[Magnetism](markdown/Physics/Magnetism/)
+>
+>[Kirchoffs Law](markdown/Physics/Kirchoffs Law/)
+>
+>[Electricity and Magenetism](markdown/Physics/Electricity and Magenetism/)
+>
+
 ## Math 
 >[Probability](markdown/Math/Probability/)
 >
 
-## CS 
->[GA](markdown/CS/GA/)
+## Business 
+>[Finance](markdown/Business/Finance/)
 >
->[Components Of a Computer System](markdown/CS/Components Of a Computer System/)
+>[Marketing](markdown/Business/Marketing/)
 >
->[Data Types](markdown/CS/Data Types/)
+>[Leadership and Management](markdown/Business/Leadership and Management/)
 >
-
-## Physics 
->[Electricity and Magenetism](markdown/Physics/Electricity and Magenetism/)
+>[Motivation](markdown/Business/Motivation/)
 >
->[Kirchoffs Law](markdown/Physics/Kirchoffs Law/)
+>[Organisation  Planning](markdown/Business/Organisation  Planning/)
+>
+>[Function and Evolution of HRM](markdown/Business/Function and Evolution of HRM/)
 >
 
 ## English 
@@ -24,17 +32,13 @@
 >[PreU-1](markdown/English/PreU-1/)
 >
 
-## Business 
->[Finance](markdown/Business/Finance/)
+## CS 
+>[Data Types](markdown/CS/Data Types/)
 >
->[Organisation  Planning](markdown/Business/Organisation  Planning/)
+>[Components Of a Computer System](markdown/CS/Components Of a Computer System/)
 >
->[Function and Evolution of HRM](markdown/Business/Function and Evolution of HRM/)
+>[GA](markdown/CS/GA/)
 >
->[Marketing](markdown/Business/Marketing/)
->
->[Motivation](markdown/Business/Motivation/)
->
->[Leadership and Management](markdown/Business/Leadership and Management/)
+>[Control Systems](markdown/CS/Control Systems/)
 >
 
