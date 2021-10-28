@@ -18,11 +18,7 @@ def main(file, directory):
     if (file.endswith(".md") and not file.startswith('.github') and ntpath.basename(file) != "index.md"):
 
         with open(file) as f:
-            first_line = f.readline()
-
-#             print("first_line")
-
-            if first_line != math_jax_script:
+            if math_jax_script not in f.read():
                 line_prepender(file, math_jax_script)
 
         file_path = os.path.normpath(file)
