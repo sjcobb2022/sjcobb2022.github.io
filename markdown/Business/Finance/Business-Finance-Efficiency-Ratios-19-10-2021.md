@@ -120,8 +120,8 @@ This means that the business takes 41 days on average to pay its suppliers
  - This is done by examining the firm's capital employed that is financed by long-term debt, such as mortgages and debentures
  - Gearing enable managers to gauge the level of efficiency in the use of a firm's capital structure
  - The formula is 
-	 - $$Gearing Ration = \frac{LongTermLiabilities}{Capitalemployed} \times 100$$
-	 - orq
+	 - $$Gearing Ratio = \frac{LongTermLiabilities}{Capitalemployed} \times 100$$
+	 - or
 	 - $$GearingRatio = \frac{Loan Capital}{CapitalEmployed} \times 100$$
  - $$Capital employed = Loan Capital / LongtermLiabilities + ShareCapital + RetainedProfit$$
  - Important for a business not to be over reliant on a loan
