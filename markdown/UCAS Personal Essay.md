@@ -1,3 +1,4 @@
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 # Main
 
 My love for the computer sciences stems from my enjoyment of problem solving and logic. My father, a former electronic engineer, inspired my passion for computing and gave me a firm foundation for the development of my own skills. Spending a significant amount of my life abroad, I have relied on technology as a means for communication and culturally-independent expression. 

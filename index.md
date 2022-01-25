@@ -1,44 +1,48 @@
 # File Sharing
 
 ## CS 
->[Control Systems](markdown/CS/Control Systems/)
->
->[Data Types](markdown/CS/Data Types/)
->
 >[GA](markdown/CS/GA/)
 >
 >[Components Of a Computer System](markdown/CS/Components Of a Computer System/)
 >
+>[Data Types](markdown/CS/Data Types/)
+>
+>[Control Systems](markdown/CS/Control Systems/)
+>
 
 ## Business 
->[Finance](markdown/Business/Finance/)
+>[Cash Flow](markdown/Business/Cash Flow/)
 >
 >[Organisation  Planning](markdown/Business/Organisation  Planning/)
 >
->[Function and Evolution of HRM](markdown/Business/Function and Evolution of HRM/)
+>[Investment Appraisal](markdown/Business/Investment Appraisal/)
+>
+>[Motivation](markdown/Business/Motivation/)
+>
+>[Finance](markdown/Business/Finance/)
 >
 >[Marketing](markdown/Business/Marketing/)
 >
 >[Leadership and Management](markdown/Business/Leadership and Management/)
 >
->[Motivation](markdown/Business/Motivation/)
+>[Function and Evolution of HRM](markdown/Business/Function and Evolution of HRM/)
 >
 
-## Physics 
->[Kirchoffs Law](markdown/Physics/Kirchoffs Law/)
+## English 
+>[Literary Criticism](markdown/English/Literary Criticism/)
 >
->[Electricity and Magenetism](markdown/Physics/Electricity and Magenetism/)
->
->[Magnetism](markdown/Physics/Magnetism/)
+>[PreU-1](markdown/English/PreU-1/)
 >
 
 ## Math 
 >[Probability](markdown/Math/Probability/)
 >
 
-## English 
->[PreU-1](markdown/English/PreU-1/)
+## Physics 
+>[Electricity and Magenetism](markdown/Physics/Electricity and Magenetism/)
 >
->[Literary Criticism](markdown/English/Literary Criticism/)
+>[Magnetism](markdown/Physics/Magnetism/)
+>
+>[Kirchoffs Law](markdown/Physics/Kirchoffs Law/)
 >
 
