@@ -1,3 +1,4 @@
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 **### To what extent does Dimmesdale’s hypocrisy inform his actions in The Scarlet Letter?
 
   
