@@ -1,16 +1,5 @@
 # Investment Appraisal
 
-- [[#Payback Period|Payback Period]]
-	- [[#Example|Example]]
-	- [[#Comparison|Comparison]]
-	- [[#With Uneven Cash Flow|With Uneven Cash Flow]]
-		- [[#Example|Example]]
-- [[#Average Rate of Return|Average Rate of Return]]
-	- [[#Example|Example]]
-- [[#Net Present Value|Net Present Value]]
-	- [[#Example|Example]]
-
-
 ## Payback Period
 
  - Under payback method, an investment project is accepted or rejected on the basis of payback period. 
