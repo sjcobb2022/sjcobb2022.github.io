@@ -13,8 +13,8 @@ $$PaybackPeriod = \frac{InvestmentRequired}{NetAnnualCashInflow}$$
 
 ### Example 
 
- - The Delta company is planning to ourchase a machine to as machine X. Machine X would cost $25,000 and would have a useful life of 10 years with zero salvage value. The expected annual cash inflow of the machine is $10,000
- - Required, compute payback period of machine X and clonclude whether or not the machine would be purchased in the maximum desired payback period of delta company is 3 years. 
+ - The Delta company is planning to purchase a machine to as machine X. Machine X would cost $25,000 and would have a useful life of 10 years with zero salvage value. The expected annual cash inflow of the machine is $10,000
+ - Required, compute payback period of machine X and conclude whether or not the machine would be purchased in the maximum desired payback period of delta company is 3 years. 
  - Solution:
 	 - $$PaybackPeriod = \frac{$25000}{$10000} = 2.5years$$
 	- Therefore the machine would be payed since the payback period is less than the 3 year period.
@@ -33,12 +33,19 @@ Comparison of two or more alternatives - choosing from several alternative proje
 #### Example
 
 An investment of $200,000 is expected to generate the following cash inflows in six years: 
+
 Year 1: $70,000 
+
 Year 2: $60,000 
+
 Year 3: $55,000 
+
 Year 4: $40,000 
+
 Year 5: $30,000 
+
 Year 6: $25,000 
+
 
 Required: Compute payback period of the investment. Should the investment be made if management wants to recover the initial investment in 3 years or less?
 
