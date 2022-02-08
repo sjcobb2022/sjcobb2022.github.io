@@ -34,17 +34,24 @@ Comparison of two or more alternatives - choosing from several alternative proje
 
 An investment of $200,000 is expected to generate the following cash inflows in six years: 
 
+
 Year 1: $70,000 
+
 
 Year 2: $60,000 
 
+
 Year 3: $55,000 
+
 
 Year 4: $40,000 
 
+
 Year 5: $30,000 
 
+
 Year 6: $25,000 
+
 
 
 Required: Compute payback period of the investment. Should the investment be made if management wants to recover the initial investment in 3 years or less?
